@@ -1,23 +1,31 @@
 module.exports = {
-  entry: [
+    entry: [
     './src/index.js'
-  ],
-  output: {
-    path: __dirname,
-    publicPath: '/',
-    filename: 'bundle.js'
-  },
-  module: {
-    loaders: [{
-      exclude: /node_modules/,
-      loader: 'babel'
-    }]
-  },
-  resolve: {
-    extensions: ['', '.js', '.jsx']
-  },
-  devServer: {
-    historyApiFallback: true,
-    contentBase: './'
-  }
-};
+    ],
+    output: {
+        path: __dirname,
+        filename: 'bundle.js',
+        publicPath: '/'
+    },
+    module: {
+        loaders: [
+            {
+                test: /\.jsx?$/,
+                exclude: /(node_modules|bower_components)/,
+                loader: 'babel',
+                query: {
+                    presets: ['react', 'es2015']
+                }
+            }
+        ]
+    },
+    resolve: {
+        extensions: ['', '.js', '.jsx']
+    },
+    devServer: {
+        inline: true,
+        historyApiFallback: true,
+        contentBase: './',
+        port: 3333
+    },
+}

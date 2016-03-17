@@ -12,9 +12,9 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 ```
 
 <p align="center">
-  <img src="http://s22.postimg.org/53dsmccap/Captura_de_pantalla_2016_03_17_a_las_7_49_42_p_m.png" width="150px" />
+  <img src="http://s22.postimg.org/53dsmccap/Captura_de_pantalla_2016_03_17_a_las_7_49_42_p_m.png" />
 </p>
 
 <p align="center">
-  <img src="http://s13.postimg.org/b7dquwd4z/Captura_de_pantalla_2016_03_17_a_las_5_54_25_p_m.png" width="150px" />
+  <img src="http://formatjs.io/img/react.svg" width="150px" />
 </p>

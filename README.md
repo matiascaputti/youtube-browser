@@ -1,12 +1,12 @@
 # Youtube Browser
 
-### React + Redux
+### React
 
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-    > git clone git@github.com:maticaputti/react-redux-youtube-browser.git
-    > cd react-redux-youtube-browser
+    > git clone git@github.com:maticaputti/youtube-browser.git
+    > cd youtube-browser
     > npm install
     > npm start
 ```
